@@ -9,9 +9,9 @@ spec:
   params:
   - name: annotations
     value:
-      autoscaling.knative.dev/minScale: "1"
+      autoscaling.knative.dev/minScale: "3"
   source:
     git:
-      url: https://github.com/sample-accelerators/tanzu-java-web-app
+      url: https://github.com/jrobinsonvm/gh-actions-tap-demo
       ref:
         branch: main
