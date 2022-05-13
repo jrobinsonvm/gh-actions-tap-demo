@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pwd
-      - run: ls -lah 
+      - run: ls -lah
+      - run: echo "hello world"
