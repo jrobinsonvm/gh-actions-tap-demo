@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-        assertEquals("Greetings from Spring Boot + Tanzu!!!!!!!!!", controller.index());
+		return "Greetings from Spring Boot + Tanzu!";
 	}
 
 }
