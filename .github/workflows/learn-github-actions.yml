@@ -9,4 +9,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: main
-      - run: ls -lah 
+      - run: kubectl apply -f config/workload.yaml
+      - run: tanzu apps workload get tanzu-java-web-app
+      - run: sleep 10
+      - run: kp build logs tanzu-java-web-app
