@@ -6,4 +6,7 @@ jobs:
     steps:
       - run: pwd
       - run: ls -lah
-      - run: echo "hello world"
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+      - run: ls -lah 
