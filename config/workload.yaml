@@ -8,9 +8,6 @@ metadata:
     apps.tanzu.vmware.com/has-tests: true 
     tanzu.app.live.view: true
     tanzu.app.live.view.application.name: tanzu-java-web-app
-
-    
-
 spec:
   params:
   - name: annotations
