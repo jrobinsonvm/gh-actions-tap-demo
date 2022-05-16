@@ -10,5 +10,5 @@ jobs:
           ref: main
       - run: kubectl apply -f config/workload.yaml
       - run: tanzu apps workload get tanzu-java-web-app
-      - run: sleep 30
+      - run: sleep 29
       - run: kp build logs tanzu-java-web-app
