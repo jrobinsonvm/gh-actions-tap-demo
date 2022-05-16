@@ -4,8 +4,7 @@ jobs:
   Build-And-Deploy:
     runs-on: [self-hosted]
     steps:
-      - run: pwd
-      - run: ls -lah
+      - run: echo "Running Build"
       - uses: actions/checkout@v3
         with:
           ref: main
